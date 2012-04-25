@@ -24,8 +24,8 @@
 	get_header(); 
 ?>
 
-<div class="container">
-	<div class="row"> 
+<div class="container-fluid">
+	<div class="row-fluid"> 
 		<?php
 			foreach(explode(",", $page_section_order) as $key) {
 				$fn = 'response_' . $key;

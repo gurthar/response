@@ -34,7 +34,7 @@ function response_page_section_content() {
 	$hidetitle = get_post_meta($post->ID, 'hide_page_title' , true);
 
 ?>
-<div class="row">
+<div class="row-fluid">
 	<!--Begin response_before_content_sidebar hook-->
 		<?php response_before_content_sidebar(); ?>
 	<!--End response_before_content_sidebar hook-->
