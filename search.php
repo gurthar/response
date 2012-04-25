@@ -21,8 +21,8 @@
 
 ?>
 
-<div class="container">
-	<div class="row">
+<div class="container-fluid">
+	<div class="row-fluid">
 		<!--Begin response_before_content_sidebar hook-->
 			<?php response_before_content_sidebar(); ?>
 		<!--End response_before_content_sidebar hook-->

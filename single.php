@@ -19,8 +19,8 @@
 	get_header(); // call header
 ?>
 
-<div class="container">
-	<div class="row">
+<div class="container-fluid">
+	<div class="row-fluid">
 	<!--Begin response_index hook (to be renamed response_post in 2.0)-->
 		<?php response_index(); ?>
 	<!--End response_index hook (to be renamed response_post in 2.0)-->
