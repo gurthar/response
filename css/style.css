@@ -389,9 +389,9 @@ ol, ul {list-style-position: inside;margin-left: 21px;}
 
 /* Footer  */
 
-#footer {}
+#footer {background: #fff;border: 1px solid #ddd;}
 
-#footer_container {background: #fff;border: 1px solid #ddd;}
+#footer_container {}
 
 #footer_wrap {padding:15px;}
 
