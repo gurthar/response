@@ -22,6 +22,8 @@ body {background: #fff;}
 
 /* Blue */
 
+#main_wrap {margin-left: 20px; margin-right: 20px;}
+
 a {color: #6098bf;}
 
 a:hover {color: #0085CF;}

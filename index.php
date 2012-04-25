@@ -18,7 +18,7 @@
 ?>
 
 <?php get_header(); ?>
-
+<div id="main_wrap">
 <div class="container">
 		<?php
 			foreach(explode(",", $options->get($themeslug.'_blog_section_order')) as $fn) {
@@ -28,4 +28,5 @@
 			}
 		?>
 </div><!--end container-->
+	</div>	
 <?php get_footer(); ?>

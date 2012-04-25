@@ -20,7 +20,7 @@
 <?php if ($options->get($themeslug.'_disable_footer') != "0"):?>	
 
 </div><!--end container wrap-->
-	
+	<div id="main_wrap">
    		<div id="footer" class="container">
      		<div id="footer_container">
     			<div id="footer_wrap" class="span12">	
@@ -44,10 +44,13 @@
 		<!--End response_secondary_footer hook-->
 				
 		</div> <!--end afterfooter-->	
-	</div> 	
+	</div> 
+</div>	
+	
 	<?php endif;?>
 	
 	<?php wp_footer(); ?>	
+
 </body>
 
 </html>

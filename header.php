@@ -31,7 +31,8 @@
 	<?php response_before_header(); ?> 
 <!--End response_before_header hook-->
 			
-<header>		
+<header>	
+<div id="main_wrap">
 	<div class="container">
 	<?php
 		foreach(explode(",", $options->get('header_section_order')) as $fn) {
@@ -41,6 +42,7 @@
 		}
 	?>
 	</div>
+</div>	
 </header>
 
 <!--Begin response_after_header-->
