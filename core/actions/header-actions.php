@@ -355,7 +355,7 @@ function response_logo_icons_content() {
 	<div class="container">
 		<div class="row">
 		
-			<div class="seven columns">
+			<div class="span7">
 				
 				<!--Begin response_header_sitename hook -->
 					<?php response_header_sitename(); ?> 
@@ -364,7 +364,7 @@ function response_logo_icons_content() {
 				
 			</div>	
 			
-			<div id ="register" class="five columns">
+			<div id ="register" class="span5">
 				
 			<!--Begin response_header_social_icons hook -->
 				<?php response_header_social_icons(); ?> 

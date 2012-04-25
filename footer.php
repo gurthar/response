@@ -20,10 +20,10 @@
 <?php if ($options->get($themeslug.'_disable_footer') != "0"):?>	
 
 </div><!--end container wrap-->
-
-    <div id="footer" class="container">
-     		<div class="row" id="footer_container">
-    			<div id="footer_wrap">	
+	
+   		<div id="footer" class="container">
+     		<div id="footer_container">
+    			<div id="footer_wrap" class="span12">	
 					<!--Begin response_footer hook-->
 						<?php response_footer(); ?>
 					<!--End response_footer hook-->
