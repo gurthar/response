@@ -38,6 +38,7 @@
 
 	<div id="afterfooter" class="container">
 		<div class="row" id="afterfooterwrap">	
+			
 		<!--Begin response_secondary_footer hook-->
 			<?php response_secondary_footer(); ?>
 		<!--End response_secondary_footer hook-->
