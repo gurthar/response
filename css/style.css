@@ -91,6 +91,8 @@ text-decoration:none;
 width:auto;
 color:#fff;
 background: #222;
+border: none;
+line-height: 13px;
 }
 
 .pagination a:hover{
