@@ -137,7 +137,7 @@ function response_breadcrumbs() {
  
   if ( !is_home() && !is_front_page() && !is_attachment() || is_paged() ) {
  
-    echo '<div class="row"><div id="crumbs" class="twelve columns"><div class="crumbs_text">';
+    echo '<div class="container-fluid"><div class="row-fluid"><div id="crumbs" class="span12"><div class="crumbs_text">';
  
     global $post;
     $homeLink = get_bloginfo('url');
@@ -223,7 +223,7 @@ function response_breadcrumbs() {
       if ( is_category() || is_day() || is_month() || is_year() || is_search() || is_tag() || is_author() ) echo ')';
     }
  
-    echo '</div></div></div>';
+    echo '</div></div></div></div>';
  
   }
 } 
