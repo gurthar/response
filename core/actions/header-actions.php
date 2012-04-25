@@ -328,7 +328,7 @@ function response_nav() {
 		
 
 		<div class="container-fluid">
-			<div class="span12" id="menu">
+			<div id="menu">
 			<div class="row-fluid">
 				<div id="nav" class="span12">
 			
