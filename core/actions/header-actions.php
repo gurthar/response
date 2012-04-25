@@ -327,8 +327,9 @@ function response_nav() {
 	?>
 		
 
-		<div class="container">
+		<div class="container-fluid">
 			<div class="span12" id="menu">
+			<div class="row-fluid">
 				<div id="nav" class="span12">
 			
 		    <?php wp_nav_menu( array(
@@ -341,6 +342,7 @@ function response_nav() {
    				</div>
 			</div>
 		</div>
+		</div>
 		
  <?php
 }
@@ -352,8 +354,8 @@ function response_nav() {
 */
 function response_logo_icons_content() {
 ?>
-	<div class="container">
-		<div class="row">
+	<div class="container-fluid">
+		<div class="row-fluid">
 		
 			<div class="span7">
 				

@@ -54,7 +54,7 @@ function response_slider_lite_content() {
 
 	}
 ?>
-	<div class="container">
+	<div class="container-fluid">
 		<div id="orbitDemo">
 			<a href="<?php echo $link1; ?>">
 	   			<img src="<?php echo $slide1 ;?>" alt="Slider" />
