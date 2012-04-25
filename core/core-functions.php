@@ -44,11 +44,12 @@ function response_scripts() {
 	
 	$path =  get_template_directory_uri() ."/core/library";
 	
-	wp_register_script( 'orbit' ,$path.'/js/bootstrap/bootstrap.js');
+	wp_register_script( 'bootstrap' ,$path.'/js/bootstrap/bootstrap.js');
 	wp_register_script( 'orbit' ,$path.'/js/foundation/jquery.orbit.js');
 	wp_register_script( 'menu' ,$path.'/js/menu.js');
 	wp_register_script( 'mobilemenu' ,$path.'/js/mobilemenu.js');
 	
+	wp_enqueue_script ('bootstrap');
 	wp_enqueue_script ('orbit');
 	wp_enqueue_script ('menu');
 	wp_enqueue_script ('mobilemenu');
