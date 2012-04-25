@@ -33,7 +33,7 @@ function response_footer_widgets() {
 
    	if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Footer") ) { ?>
 
-		<div class="row">
+		<div class="row-fluid">
 		<div class="span3 footer-widgets">
 			<h3 class="footer-widget-title"><?php printf( __( 'Footer Widgets', 'response' )); ?></h3>
 			<ul>

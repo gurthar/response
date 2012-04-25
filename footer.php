@@ -21,8 +21,8 @@
 
 </div><!--end container wrap-->
 	<div id="main_wrap">
-   		<div id="footer" class="container">
-     		<div id="footer_container">
+   		<div id="footer" class="container-fluid">
+     		<div id="footer_container" class="row-fluid">
     			<div id="footer_wrap" class="span12">	
 					<!--Begin response_footer hook-->
 						<?php response_footer(); ?>
