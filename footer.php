@@ -36,8 +36,8 @@
 
 <?php if ($options->get($themeslug.'_disable_afterfooter') != "0"):?>
 
-	<div id="afterfooter" class="container">
-		<div class="row" id="afterfooterwrap">	
+	<div id="afterfooter" class="container-fluid">
+		<div class="row-fluid" id="afterfooterwrap">	
 			
 		<!--Begin response_secondary_footer hook-->
 			<?php response_secondary_footer(); ?>
